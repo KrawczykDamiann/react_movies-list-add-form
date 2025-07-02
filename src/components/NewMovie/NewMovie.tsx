@@ -1,4 +1,3 @@
-// src/components/NewMovie/NewMovie.tsx
 import React, { useState, useCallback } from 'react';
 import { TextField } from '../TextField/TextField';
 import { Movie } from '../../types/Movie';

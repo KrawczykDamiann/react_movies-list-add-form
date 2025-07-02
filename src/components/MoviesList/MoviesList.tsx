@@ -1,4 +1,3 @@
-// src/components/MoviesList/MoviesList.tsx
 import React from 'react';
 import { MovieCard } from '../MovieCard/MovieCard';
 import { Movie } from '../../types/Movie';

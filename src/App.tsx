@@ -1,10 +1,11 @@
-// src/components/App/App.tsx
 import React, { useState } from 'react';
+import { MoviesList } from './components/MoviesList/MoviesList';
+import { NewMovie } from './components/NewMovie/NewMovie';
+import moviesFromServer from './api/movies.json';
+import { Movie } from './types/Movie';
+
+// Importy stylów (jeśli są potrzebne w tym pliku)
 import './App.scss';
-import { MoviesList } from '../src/components/MoviesList/MoviesList';
-import { NewMovie } from '../src/components/NewMovie/NewMovie';
-import moviesFromServer from '../src/api/movies.json';
-import { Movie } from '../src/types/Movie';
 
 export const App = () => {
   const [movies, setMovies] = useState<Movie[]>(moviesFromServer);
