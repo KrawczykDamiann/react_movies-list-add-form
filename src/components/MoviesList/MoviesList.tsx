@@ -1,8 +1,8 @@
+// src/components/MoviesList/MoviesList.tsx
 import React from 'react';
-
-import './MoviesList.scss';
-import { MovieCard } from '../MovieCard';
+import { MovieCard } from '../MovieCard/MovieCard';
 import { Movie } from '../../types/Movie';
+import './MoviesList.scss';
 
 interface Props {
   movies: Movie[];
